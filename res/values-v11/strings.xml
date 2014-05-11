@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general stuff -->
+    <string name="app_name">ActionViews</string>
+    <string name="userid_label">OpenMinds</string>
+
+    <!-- titles -->
+    <string name="title_activity_actionview">ActionView</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- ActionBar -->
+    <string name="progress">Refresh</string>
+    <string name="add_item">Add Item</string>
+
+    <!-- demo descriptions -->
+    <string name="searchview_desc">
+<![CDATA[
+        This demo shows how to use the SearchView. Please click on the search icon to see it at work. This demo also contains simplified parts of the upcoming Search demo.<br><br>The only words the app can find are "one", "two" and "three".
+        ]]>
+    </string>
+    <string name="placeholder_desc">
+<![CDATA[
+        This demo shows how to replace a normal action item with an ActionView during runtime. This causes an in-place replacement. Please click on the refresh icon to see it at work.
+        ]]>
+    </string>
+    <string name="expandable_desc">
+<![CDATA[
+        This demo shows how to use a layout file as an expandable ActionView. Please click on the add icon to see it at work.
+        ]]>
+    </string>
+    <string name="preexpanded_desc">
+<![CDATA[
+        This demo shows how to use a layout file as an already expanded part within the ActionBar. The EditText of the ActionBar demonstrates this kind of ActionView.
+        ]]>
+    </string>
+
+    <!-- search -->
+    <string name="search">Search</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="nothing_found">You\'ve searched for \"%s\".\nBut, alas, I\'ve found nothing.</string>
+
+    <!-- search results -->
+    <!-- 2014 == m-dash; 2013 == n-dash -->
+    <string name="separator">\u2014</string>
+
+    <!-- ActionBar-Spinner -->
+    <string-array name="spinner_with_searchview">
+        <item>SearchView</item>
+        <item>In-Place replacement view</item>
+        <item>Pre-expanded view</item>
+        <item>On-demand expanded view</item>
+    </string-array>
+    <string-array name="spinner_without_searchview">
+        <item>In-Place replacement view</item>
+        <item>Pre-expanded view</item>
+        <item>On-demand expanded view</item>
+    </string-array>
+
+    <!-- about -->
+    <string name="about">About</string>
+    <string name="about_text">
+<![CDATA[
+        <strong>ActionViews Demo</strong>
+        <br>
+        \u00a9 2013 by Wolfram Rittmeyer
+        <br>
+        <a href="http://www.grokkingandroid.com">http://www.grokkingandroid.com</a>
+        <br><br>
+        The code is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache License Version 2.0</a>.
+        <br><br><br>
+        <em><strong>This demo makes use of the following %s:</strong></em>
+        ]]>
+    </string>
+
+    <plurals name="libraries_plural">
+        <item quantity="one">library</item>
+        <item quantity="other">libraries</item>
+    </plurals>
+
+    <string-array name="about_titles">
+        <item>ActionBarCompat</item>
+    </string-array>
+    <string-array name="about_contents">
+        <item>
+<![CDATA[
+            ActionBarCompat is provided by the Android Open Source Project
+            as a means to add the ActionBar even if you are targeting
+            older devices.<br><br>
+            ActionBarCompat is licensed under
+            the <a href="http://source.android.com/source/licenses.html">
+            Apache License 2.0</a>.
+            ]]>
+        </item>
+    </string-array>
+
+    <!-- Blog links -->
+    <string name="demo_description">Demo description</string>
+    <string name="blog_links">Blog links</string>
+
+    <string-array name="searchview_link_texts">
+        <item>Migrating from ActionBarSherlock to ActionBarCompat</item>
+        <item>Adding ActionViews to Your ActionBar</item>
+        <item>Adding Search to Your Apps</item>
+        <item>Adding Search Suggestions</item>
+        <item>Adding ActionBar Items From Within Your Fragments</item>
+        <item>ActionBarSherlock: Up Navigation</item>
+        <item>Adding ActionBarSherlock to Your Project</item>
+    </string-array>
+    <string-array name="searchview_link_targets">
+        <item>http://www.grokkingandroid.com/migrating-actionbarsherlock-actionbarcompat/</item>
+        <item>http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/</item>
+        <item>http://www.grokkingandroid.com/android-tutorial-adding-search-to-your-apps/</item>
+        <item>http://www.grokkingandroid.com/android-tutorial-adding-suggestions-to-search/</item>
+        <item>http://www.grokkingandroid.com/adding-action-items-from-within-fragments/</item>
+        <item>http://www.grokkingandroid.com/actionbarsherlock-up-navigation/</item>
+        <item>http://www.grokkingandroid.com/adding-actionbarsherlock-to-your-project/</item>
+    </string-array>
+    <string-array name="default_link_texts">
+        <item>Migrating from ActionBarSherlock to ActionBarCompat</item>
+        <item>Adding ActionViews to Your ActionBar</item>
+        <item>Adding ActionBar Items From Within Your Fragments</item>
+        <item>ActionBarSherlock: Up Navigation</item>
+        <item>Adding ActionBarSherlock to Your Project</item>
+    </string-array>
+    <string-array name="default_link_targets">
+        <item>http://www.grokkingandroid.com/migrating-actionbarsherlock-actionbarcompat/</item>
+        <item>http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/</item>
+        <item>http://www.grokkingandroid.com/adding-action-items-from-within-fragments/</item>
+        <item>http://www.grokkingandroid.com/actionbarsherlock-up-navigation/</item>
+        <item>http://www.grokkingandroid.com/adding-actionbarsherlock-to-your-project/</item>
+    </string-array>
+
+</resources>
